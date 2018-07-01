@@ -1,0 +1,81 @@
+GENERAL
+Portal Initialized: True
+Flight Offers Internet Service: True
+Internet Connection Available: True
+Subscription Available: True
+Logged in: False
+
+FLIGHT INFO
+Fake Flight: False
+Flight Status: In Flight - Estimated to Arrive 13 Minutes Early
+Flight Number: XXX
+Flight GUID: 4b3f16e0-xxxx-xxxx-xxxx-4e4e2d690bea
+Flight Map: https://www.unitedwifi.com/portal/images/map/TabletLandscape.png?xxxxxxxxxx
+Flight Duration: 480 min
+Time Remaining To Destination: 224 min
+Origin Airport Code: XXX
+Origin City: Xxxxxx
+Origin State: XX
+Departure Gate: XXX
+Departure Terminal: Terminal X
+Departure Concourse:
+Destination Airport Code: XXX
+Destination City: Xxxxxxxxx
+Destination State: XX
+Arrival Gate: XX
+Arrival Terminal: Main Terminal
+Arrival Concourse:  Concourse C
+Scheduled Departure Time in Xxxxxx: 17 Jun 2018 4:40 PM
+Estimated Departure Time in Xxxxxx: 17 Jun 2018 4:40 PM
+Actual Departure Time in Xxxxxx: 17 Jun 2018 4:41 PM
+Scheduled Arrival Time in Xxxxxxxxx: 17 Jun 2018 7:40 PM
+Estimated Arrival Time in Xxxxxxxxx: 17 Jun 2018 7:27 PM
+Actual Arrival Time in Xxxxxxxxx: 01 Jan 0001 12:00 AM
+Wind Direction: WNW kph
+Air Speed: -16 mph
+Ground Speed: 555 mph
+Air Temperature: -40f
+Altitude: 35999m
+
+PLANE INFO
+Aircraft Model: Boeing 777-222
+Nose Number: XXXX
+Equipment Code: 77Q
+
+WEATHER
+
+SUN
+Text: Cloudy
+Current Temperature: 87f
+High Temperature: 87f
+Low Temperature: 87f
+
+MON
+Text: Partly Cloudy
+Current Temperature: 0f
+High Temperature: 95f
+Low Temperature: 75f
+
+TUE
+Text: PM Thunderstorms
+Current Temperature: 0f
+High Temperature: 91f
+Low Temperature: 70f
+
+WED
+Text: PM Thunderstorms
+Current Temperature: 0f
+High Temperature: 86f
+Low Temperature: 68f
+
+THU
+Text: Partly Cloudy
+Current Temperature: 0f
+High Temperature: 84f
+Low Temperature: 64f
+
+FRI
+Text: Partly Cloudy
+Current Temperature: 0f
+High Temperature: 83f
+Low Temperature: 65f

@@ -1,0 +1,123 @@
+{
+  "isPortalInitialized": true,
+  "flightOffersInternetService": true,
+  "internetConnectionIsAvailable": true,
+  "devicePlatform": "Mac",
+  "host": "www.unitedwifi.com",
+  "IsLoggedIn": false,
+  "isSubscriptionAvailable": true,
+  "internet": {
+    "accessType": "NONE",
+    "tier": "",
+    "tierDescription": "",
+    "fulfilmentState": "",
+    "orderState": "",
+    "timeRemaining": 0
+  },
+  "flifo": {
+    "originAirportCode": "XXX",
+    "originCity": "Xxxxxx",
+    "originState": "XX ",
+    "destinationAirportCode": "XXX",
+    "destinationCity": "Xxxxxxxxx",
+    "destinationState": "XX ",
+    "scheduledDepartureTimeLocal": "17 Jun 2018 4:40 PM",
+    "scheduledArrivalTimeLocal": "17 Jun 2018 7:40 PM",
+    "estimatedDepartureTimeLocal": "17 Jun 2018 4:40 PM",
+    "estimatedArrivalTimeLocal": "17 Jun 2018 7:27 PM",
+    "actualDepartureTimeLocal": "17 Jun 2018 4:41 PM",
+    "actualArrivalTimeLocal": "01 Jan 0001 12:00 AM",
+    "flightStatus": "In Flight - Estimated to Arrive 13 Minutes Early",
+    "isFake": false,
+    "flightNumber": "925",
+    "flightGuid": "4b3f16e0-xxxx-xxxx-xxxx-4e4e2d690bea",
+    "timeRemainingToDestination": 313,
+    "flightDurationMinutes": 480,
+    "flightMapPath": "/portal/images/map/TabletLandscape.png?xxxxxxxxxx",
+    "scheduledDepartureTime": "4:40 p.m.",
+    "actualDepartureTime": "4:41 p.m.",
+    "scheduledArrivalTime": "7:40 p.m.",
+    "estimatedArrivalTime": "7:27 p.m.",
+    "departureGate": "XXX",
+    "arrivalGate": "XX",
+    "departureTerminal": "Terminal X",
+    "arrivalTerminal": "Main Terminal",
+    "departureConcourse": "",
+    "arrivalConcourse": " Concourse X",
+    "aircraftModel": "Boeing 777-222",
+    "noseNumber": "XXXX",
+    "equipmentCode": "77Q",
+    "airSpeedMPH": "-132",
+    "airSpeedKPH": "-213",
+    "windDirection": "WSW",
+    "groundSpeedMPH": "455",
+    "groundSpeedKPH": "732",
+    "airTemperatureF": "-51",
+    "airTemperatureC": "-46",
+    "altitudeFt": "36002",
+    "altitudeMeters": "10973"
+  },
+
+  "weather": {
+    "currently": {
+      "day": "Sun",
+      "code": "28",
+      "currtempf": 87,
+      "currtempc": 31,
+      "lowtempf": 87,
+      "hightempf": 87,
+      "lowtempc": 31,
+      "hightempc": 31,
+      "text": "Mostly Cloudy"
+    },
+    "forecast": [
+      {
+        "day": "Mon",
+        "code": 30,
+        "lowtempf": 75,
+        "hightempf": 94,
+        "lowtempc": 24,
+        "hightempc": 35,
+        "text": "Partly Cloudy"
+      },
+      {
+        "day": "Tue",
+        "code": 38,
+        "lowtempf": 70,
+        "hightempf": 94,
+        "lowtempc": 21,
+        "hightempc": 34,
+        "text": "PM Thunderstorms"
+      },
+      {
+        "day": "Wed",
+        "code": 38,
+        "lowtempf": 69,
+        "hightempf": 86,
+        "lowtempc": 21,
+        "hightempc": 30,
+        "text": "PM Thunderstorms"
+      },
+      {
+        "day": "Thu",
+        "code": 30,
+        "lowtempf": 66,
+        "hightempf": 83,
+        "lowtempc": 19,
+        "hightempc": 29,
+        "text": "Partly Cloudy"
+      },
+      {
+        "day": "Fri",
+        "code": 30,
+        "lowtempf": 65,
+        "hightempf": 83,
+        "lowtempc": 18,
+        "hightempc": 28,
+        "text": "Partly Cloudy"
+      },
+
+      "lastitem"
+    ]
+  }
+}

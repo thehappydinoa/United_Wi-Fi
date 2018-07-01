@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<nmaprun start="1529262304" profile_name="Quick scan plus" xmloutputversion="1.04" scanner="nmap" version="7.70" startstr="Sun Jun 17 20:05:04 2018" args="nmap -sV -T4 -O -F --version-light 172.19.248.1-2">
+  <scaninfo
+    services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"
+    protocol="tcp"
+    numservices="100"
+    type="syn"></scaninfo>
+  <verbose level="0"></verbose>
+  <debugging level="0"></debugging>
+  <output type="interactive">Starting Nmap 7.70 ( https://nmap.org ) at 2018-06-17 20:05 BST Nmap scan report for ns.unitedwifi.com (172.19.248.1) Host is up (0.0020s latency). Not shown: 97 filtered ports PORT STATE SERVICE VERSION 53/tcp open domain
+    ISC BIND 80/tcp open http-proxy Squid http proxy 3.4.6 443/tcp closed https MAC Address: 00:0D:2E:00:40:01 (Matsushita Avionics Systems) Device type: general purpose Running: Linux 2.6.X OS CPE: cpe:/o:linux:linux_kernel:2.6 OS details: Linux 2.6.24
+    - 2.6.36 Network Distance: 1 hop Nmap scan report for www.unitedwifi.com (172.19.248.2) Host is up (0.0015s latency). Not shown: 97 filtered ports PORT STATE SERVICE VERSION 80/tcp open http nginx 443/tcp open ssl/http nginx (reverse proxy) 8080/tcp
+    closed http-proxy MAC Address: 00:0D:2E:00:00:A8 (Matsushita Avionics Systems) Device type: general purpose Running: Linux 3.X|4.X OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4 OS details: Linux 3.2 - 4.9 Network Distance: 1 hop OS
+    and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 2 IP addresses (2 hosts up) scanned in 23.52 seconds
+  </output>
+  <host comment="">
+    <status state="up"></status>
+    <address addrtype="ipv4" vendor="" addr="172.19.248.1"></address>
+    <address addrtype="mac" vendor="Matsushita Avionics Systems" addr="00:0D:2E:00:40:01"></address>
+    <hostnames>
+      <hostname type="PTR" name="ns.unitedwifi.com"></hostname>
+    </hostnames>
+    <ports>
+      <extraports count="97" state="filtered"></extraports>
+      <port protocol="tcp" portid="53">
+        <state reason="syn-ack" state="open" reason_ttl="64"></state>
+        <service product="ISC BIND" method="probed" conf="10" name="domain"></service>
+      </port>
+      <port protocol="tcp" portid="80">
+        <state reason="syn-ack" state="open" reason_ttl="64"></state>
+        <service product="Squid http proxy" version="3.4.6" method="probed" conf="10" name="http-proxy"></service>
+      </port>
+      <port protocol="tcp" portid="443">
+        <state reason="reset" state="closed" reason_ttl="64"></state>
+        <service method="table" conf="3" name="https"></service>
+      </port>
+    </ports>
+    <os>
+      <portused state="open" portid="53" proto="tcp"></portused>
+      <portused state="closed" portid="443" proto="tcp"></portused>
+      <osmatch line="52392" name="Linux 2.6.24 - 2.6.36" accuracy="100">
+        <osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="2.6.X" accuracy="100"></osclass>
+      </osmatch>
+    </os>
+    <uptime lastboot="Sun Jun 17 02:31:15 2018" seconds="63252"></uptime>
+    <tcpsequence index="205" values="D214E4EA,D1E1D5F1,D188DAF8,D27D99ED,D1FEC31A,D1E42EC1" difficulty="Good luck!"></tcpsequence>
+    <ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence>
+    <tcptssequence values="3C52360,3C523CC,3C52438,3C524A2,3C5250D,3C52578" class="1000HZ"></tcptssequence>
+  </host>
+  <host comment="">
+    <status state="up"></status>
+    <address addrtype="ipv4" vendor="" addr="172.19.248.2"></address>
+    <address addrtype="mac" vendor="Matsushita Avionics Systems" addr="00:0D:2E:00:00:A8"></address>
+    <hostnames>
+      <hostname type="PTR" name="www.unitedwifi.com"></hostname>
+    </hostnames>
+    <ports>
+      <extraports count="97" state="filtered"></extraports>
+      <port protocol="tcp" portid="80">
+        <state reason="syn-ack" state="open" reason_ttl="64"></state>
+        <service product="nginx" method="probed" conf="10" name="http"></service>
+      </port>
+      <port protocol="tcp" portid="443">
+        <state reason="syn-ack" state="open" reason_ttl="64"></state>
+        <service product="nginx" extrainfo="reverse proxy" method="probed" conf="10" name="http"></service>
+      </port>
+      <port protocol="tcp" portid="8080">
+        <state reason="reset" state="closed" reason_ttl="64"></state>
+        <service method="table" conf="3" name="http-proxy"></service>
+      </port>
+    </ports>
+    <os>
+      <portused state="open" portid="80" proto="tcp"></portused>
+      <portused state="closed" portid="8080" proto="tcp"></portused>
+      <osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="100">
+        <osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="100"></osclass>
+      </osmatch>
+    </os>
+    <uptime lastboot="Sun Jun 17 02:30:47 2018" seconds="63280"></uptime>
+    <tcpsequence index="258" values="66C45056,C5DF62B2,ECA97D3,D4E46857,AEEC4AA3,2802F26E" difficulty="Good luck!"></tcpsequence>
+    <ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence>
+    <tcptssequence values="3C59124,3C59190,3C591FC,3C59266,3C592D1,3C5933C" class="1000HZ"></tcptssequence>
+  </host>
+  <runstats>
+    <finished timestr="Sun Jun 17 20:05:27 2018" time="1529262327"></finished>
+    <hosts down="0" total="2" up="2"></hosts>
+  </runstats>
+</nmaprun>
